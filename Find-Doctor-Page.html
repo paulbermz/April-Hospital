@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Find Doctor</title>
+    <meta
+      name="generator"
+      content="WYSIWYG Web Builder 20 Trial Version - https://www.wysiwygwebbuilder.com"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="rhrbfvy6tp.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link href="fontawesome6.min.css" rel="stylesheet" />
+    <link href="ITP102_Midterm_Project.css" rel="stylesheet" />
+    <link href="Find-Doctor-Page.css" rel="stylesheet" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="magnificpopup/magnific-popup.css" />
+    <script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+    <script src="wwb20.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script>
+      function displaylightbox(url, options = {}) {
+        $.magnificPopup.open({
+          items: {
+            src: url,
+          },
+          type: "iframe",
+          closeOnContentClick: false,
+          closeBtnInside: true,
+          fixedContentPos: true,
+          mainClass: "mfp-fade",
+          iframe: {
+            markup:
+              '<div class="mfp-iframe-scaler">' +
+              '<div class="mfp-close"></div>' +
+              '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+              "</div>",
+            patterns: {
+              menuPage: {
+                index: "Menu.html",
+                src: "%id%", // Directly loads Menu.html
+              },
+            },
+            srcAction: "iframe_src",
+          },
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      id="wb_Card2"
+      style="
+        position: absolute;
+        left: 13px;
+        top: 828px;
+        width: 1877px;
+        height: 655px;
+        z-index: 4;
+      "
+      class="card"
+    ></div>
+    <div
+      id="wb_article6Card1"
+      style="
+        position: absolute;
+        left: 46px;
+        top: 139px;
+        width: 1685px;
+        height: 551px;
+        z-index: 5;
+      "
+      class="card"
+    >
+      <div id="article6Card1-card-body">
+        <div id="article6Card1-card-item0">
+          <a href="./Index.html">HOME | FIND DOCTOR</a>
+        </div>
+      </div>
+    </div>
+    <a href="https://www.wysiwygwebbuilder.com" target="_blank"
+      ><img
+        src="images/builtwithwwb20.png"
+        alt="WYSIWYG Web Builder"
+        style="
+          position: absolute;
+          left: 13px;
+          top: 2184px;
+          margin: 0;
+          border-width: 0;
+          z-index: 250;
+        "
+        width="16"
+        height="16"
+    /></a>
+    <div
+      id="NavigationBar1"
+      style="
+        position: absolute;
+        left: 466px;
+        top: 156px;
+        width: 948px;
+        height: 30px;
+        z-index: 7;
+      "
+    >
+      <ul class="navbar">
+        <li class="nav-item">
+          <a href="./Find-Doctor-Page.html">FIND A DOCTOR</a>
+        </li>
+        <li class="nav-item">
+          <a href="./Login-Page.html">LOG IN</a>
+        </li>
+        <li class="nav-item">
+          <a href="./Sign-Up-Page.html">SIGN UP</a>
+        </li>
+        <li class="nav-item">
+          <a href="./Contact-Us-Page.html">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+    <hr
+      id="HorizontalLine1"
+      style="
+        position: absolute;
+        left: 91px;
+        top: 139px;
+        width: 1650px;
+        z-index: 8;
+      "
+    />
+    <hr
+      id="HorizontalLine2"
+      style="
+        position: absolute;
+        left: 91px;
+        top: 195px;
+        width: 1650px;
+        z-index: 9;
+      "
+    />
+    <div
+      id="wb_Image2"
+      style="
+        position: absolute;
+        left: 63px;
+        top: 18px;
+        width: 102px;
+        height: 101px;
+        z-index: 10;
+      "
+    >
+      <a href="./Index.html"
+        ><img
+          src="images/rhrbfvy6tp.jpg"
+          id="Image2"
+          alt=""
+          width="102"
+          height="102"
+      /></a>
+    </div>
+    <div
+      id="wb_Heading1"
+      style="
+        position: absolute;
+        left: 144px;
+        top: 23px;
+        width: 319px;
+        height: 40px;
+        z-index: 11;
+      "
+    >
+      <h3 id="Heading1">
+        <a href="./Index.html">APRIL HOSPITAL AND <br />MEDICAL CENTER</a>
+      </h3>
+    </div>
+    <div
+      id="wb_Heading2"
+      style="
+        position: absolute;
+        left: 191px;
+        top: 81px;
+        width: 272px;
+        height: 4px;
+        z-index: 12;
+      "
+    >
+      <h3 id="Heading2">
+        <a href="./Index.html">Global Expertise. Filipino Heart.</a>
+      </h3>
+    </div>
+    <div
+      id="wb_Icon1"
+      style="
+        position: absolute;
+        left: 938px;
+        top: 52px;
+        width: 67px;
+        height: 29px;
+        text-align: center;
+        z-index: 13;
+      "
+    >
+      <a href="#" onclick="ShowObject('Search_Bar', 1);return false;"
+        ><div id="Icon1"><i class="fa fa-search"></i></div
+      ></a>
+    </div>
+    <input
+      type="text"
+      id="Editbox1"
+      style="
+        position: absolute;
+        left: 456px;
+        top: 45px;
+        width: 468px;
+        height: 29px;
+        z-index: 14;
+      "
+      name="SearchBar"
+      value=""
+      spellcheck="false"
+      placeholder="    Search..."
+    />
+    <div
+      id="wb_Icon7"
+      style="
+        position: absolute;
+        left: 1688px;
+        top: 147px;
+        width: 53px;
+        height: 39px;
+        text-align: center;
+        z-index: 15;
+      "
+    >
+      <a href="Menu.html" target="_self"
+        ><div id="Icon7"><i class="fa fa-globe"></i></div
+      ></a>
+    </div>
+    <div
+      id="wb_Image1"
+      style="
+        position: absolute;
+        left: 13px;
+        top: 213px;
+        width: 1883px;
+        height: 601px;
+        z-index: 16;
+      "
+    >
+      <img
+        src="images/testbanner.jpg"
+        id="Image1"
+        alt=""
+        width="1883"
+        height="946"
+      />
+    </div>
+    <input
+      type="submit"
+      id="Button2"
+      name=""
+      value="   + (632) 8-771-9000"
+      style="
+        position: absolute;
+        left: 1225px;
+        top: 42px;
+        width: 240px;
+        height: 48px;
+        z-index: 17;
+      "
+    />
+    <input
+      type="submit"
+      id="Button3"
+      name=""
+      value="    + (632) 8-876-57-55"
+      style="
+        position: absolute;
+        left: 1501px;
+        top: 42px;
+        width: 240px;
+        height: 48px;
+        z-index: 18;
+      "
+    />
+    <div
+      id="wb_Icon3"
+      style="
+        position: absolute;
+        left: 1511px;
+        top: 52px;
+        width: 31px;
+        height: 28px;
+        text-align: center;
+        z-index: 19;
+      "
+    >
+      <div id="Icon3"><i class="fa fa-phone-flip"></i></div>
+    </div>
+    <div
+      id="wb_Icon2"
+      style="
+        position: absolute;
+        left: 1235px;
+        top: 52px;
+        width: 31px;
+        height: 28px;
+        text-align: center;
+        z-index: 20;
+      "
+    >
+      <div id="Icon2"><i class="fa fa-phone-flip"></i></div>
+    </div>
+    <div
+      id="wb_form11Heading"
+      style="
+        position: absolute;
+        left: 665px;
+        top: 852px;
+        width: 570px;
+        height: 71px;
+        z-index: 21;
+      "
+    >
+      <h1 id="form11Heading">Search a Doctor</h1>
+    </div>
+    <textarea
+      name="TextArea1"
+      id="TextArea1"
+      style="
+        position: absolute;
+        left: 919px;
+        top: 1002px;
+        width: 843px;
+        height: 254px;
+        z-index: 22;
+      "
+      rows="11"
+      cols="68"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="Your Message"
+    ></textarea>
+    <input
+      type="text"
+      id="Editbox2"
+      style="
+        position: absolute;
+        left: 91px;
+        top: 1002px;
+        width: 750px;
+        height: 18px;
+        z-index: 23;
+      "
+      name="name"
+      value=""
+      spellcheck="false"
+      placeholder="Doctors  Name"
+    />
+    <input
+      type="text"
+      id="Editbox3"
+      style="
+        position: absolute;
+        left: 91px;
+        top: 1118px;
+        width: 750px;
+        height: 20px;
+        z-index: 24;
+      "
+      name="email"
+      value=""
+      spellcheck="false"
+      placeholder="Doctor Specialty"
+    />
+    <input
+      type="text"
+      id="Editbox4"
+      style="
+        position: absolute;
+        left: 91px;
+        top: 1238px;
+        width: 750px;
+        height: 20px;
+        z-index: 25;
+      "
+      name="phone"
+      value=""
+      spellcheck="false"
+      placeholder="Doctor Sub Specialty"
+    />
+    <input
+      type="submit"
+      id="form11Button"
+      name=""
+      value="SEARCH DOCTOR"
+      style="
+        position: absolute;
+        left: 628px;
+        top: 1372px;
+        width: 496px;
+        height: 67px;
+        z-index: 26;
+      "
+    />
+    <div
+      id="wb_form11Text"
+      style="
+        position: absolute;
+        left: 349px;
+        top: 938px;
+        width: 1178px;
+        height: 22px;
+        text-align: center;
+        z-index: 27;
+      "
+    >
+      <p>Should you have any questions, please get in touch.</p>
+    </div>
+    <div
+      id="wb_Card1"
+      style="
+        position: absolute;
+        left: 13px;
+        top: 1509px;
+        width: 1877px;
+        height: 655px;
+        z-index: 28;
+      "
+      class="card"
+    ></div>
+    <div
+      id="wb_Heading3"
+      style="
+        position: absolute;
+        left: 120px;
+        top: 1580px;
+        width: 1592px;
+        height: 75px;
+        z-index: 29;
+      "
+    >
+      <h1 id="Heading3">Subscribe Now</h1>
+    </div>
+    <div
+      id="wb_Text1"
+      style="
+        position: absolute;
+        left: 685px;
+        top: 1670px;
+        width: 462px;
+        height: 22px;
+        text-align: center;
+        z-index: 30;
+      "
+    >
+      <p>Latest news direct to your inbox</p>
+    </div>
+    <input
+      type="text"
+      id="Editbox5"
+      style="
+        position: absolute;
+        left: 191px;
+        top: 1777px;
+        width: 1060px;
+        height: 60px;
+        z-index: 31;
+      "
+      name="Editbox1"
+      value=""
+      spellcheck="false"
+      placeholder="Enter your email"
+    />
+    <button
+      type="submit"
+      id="ThemeableButton1"
+      name=""
+      value="Submit"
+      class="ui-button ui-corner-all"
+      style="
+        position: absolute;
+        left: 1339px;
+        top: 1777px;
+        width: 293px;
+        height: 70px;
+        z-index: 32;
+      "
+    >
+      Submit
+    </button>
+    <div id="wb_LayoutGrid2">
+      <div id="LayoutGrid2">
+        <div class="col-1">
+          <div id="wb_Text2">
+            <span style="color: #ffffff; font-family: Arial; font-size: 16px"
+              >&#0169; April Hospital And Medical Center. All Rights Reserved.
+              2025</span
+            >
+          </div>
+        </div>
+        <div class="col-2">
+          <div
+            id="wb_Icon6"
+            style="
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              text-align: center;
+              z-index: 1;
+            "
+          >
+            <a href="./Index.html"
+              ><div id="Icon6"><i class="fa fa-brands fa-x-twitter"></i></div
+            ></a>
+          </div>
+          <div
+            id="wb_Icon4"
+            style="
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              text-align: center;
+              z-index: 2;
+            "
+          >
+            <a href="./Index.html"
+              ><div id="Icon4"><i class="fa fa-brands fa-instagram"></i></div
+            ></a>
+          </div>
+          <div
+            id="wb_Icon5"
+            style="
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              text-align: center;
+              z-index: 3;
+            "
+          >
+            <a href="./Index.html"
+              ><div id="Icon5"><i class="fa fa-brands fa-facebook"></i></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="PageFooter1"
+      style="
+        position: absolute;
+        overflow: hidden;
+        text-align: left;
+        left: 0px;
+        top: 2293px;
+        width: 100%;
+        height: 1px;
+        z-index: 34;
+      "
+    ></div>
+  </body>
+</html>
